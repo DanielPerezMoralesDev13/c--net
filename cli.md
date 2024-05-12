@@ -1,4 +1,7 @@
-# comandos c# projects
+<!-- Autor: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Correo electrónico: danielperezdev@proton.me  -->
+# ***comandos c# projects***
 
 ```bash
 dotnet build -c Release
@@ -12,7 +15,7 @@ dotnet build -c Release
 
 *Entonces, en resumen, el comando `dotnet build -c Release` se utiliza para compilar un proyecto .NET Core en modo de liberación, lo que genera los archivos de salida correspondientes (como ensamblados DLL) listos para ser ejecutados o distribuidos.*
 
-## **Ejecutar**
+## ***Ejecutar***
 
 ```bash
 dotnet /home/d4nitrix13/Desktop/Poo/bin/Release/net8.0/Poo.dll
