@@ -80,4 +80,10 @@ dotnet build -c Release -r linux-x64
 
 ---
 
-*Feel free to expand this README as needed to include more information about your project or to tailor it to your specific needs.*
+## **Contributions**
+
+*Contributions are welcome! If you have suggestions, corrections, or improvements for this guide, feel free to open an issue or submit a pull request.*
+
+## **License**
+
+> This repository is published under the MIT License. Feel free to use, modify, and distribute the content according to the terms of this license.
