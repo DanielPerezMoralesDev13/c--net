@@ -54,7 +54,7 @@ Name        Version  Publisher    Notes    Summary
 dotnet-sdk  8.0.204  dotnetcore✓  classic  Develop high performance applications in less time, on any platform.
 ```
 
-```json
+```bash
 sudo snap install dotnet-sdk --channel=3.1/stable
 ```
 
