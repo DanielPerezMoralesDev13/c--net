@@ -85,6 +85,61 @@ dotnet run ./main.cs
 dotnet new console -o prueba
 ```
 
+- *Para iniciar un proyecto de página web en ASP.NET usando .NET CLI (Command Line Interface), puedes seguir estos pasos básicos. ASP.NET proporciona plantillas y herramientas a través de .NET CLI que te permiten crear y gestionar proyectos de forma eficiente desde la línea de comandos.*
+
+### ***Crear un Nuevo Proyecto ASP.NET***
+
+**Para crear un proyecto de página web en ASP.NET, puedes usar el siguiente comando en la terminal:**
+
+```bash
+dotnet new web -n MiProyectoWeb
+```
+
+- *`dotnet new web`:** *Este comando crea un nuevo proyecto web en ASP.NET.*
+- *`-n MiProyectoWeb`:** *Especifica el nombre del proyecto. Puedes cambiar `MiProyectoWeb` por el nombre que desees para tu proyecto.*
+
+- *Este comando creará una estructura básica para tu proyecto web en ASP.NET.*
+
+### ***Navegar al Directorio del Proyecto***
+
+**Una vez que el proyecto se haya creado, navega al directorio del proyecto usando:**
+
+```bash
+cd MiProyectoWeb
+```
+
+### Ejecutar el Proyecto
+
+**Para ejecutar tu proyecto web y verlo en tu navegador local, usa el siguiente comando:**
+
+```bash
+dotnet run
+```
+
+- **Esto iniciará el servidor web y te proporcionará una URL local (por lo general, `http://localhost:5000` o `https://localhost:5001`) donde puedes acceder a tu proyecto.**
+
+### ***Abrir y Editar el Proyecto***
+
+- *Puedes usar cualquier editor de texto o IDE compatible con .NET para abrir y editar tu proyecto. Algunas opciones populares son Visual Studio Code, Visual Studio (la versión adecuada para .NET Core/.NET 5+), JetBrains Rider, entre otros.*
+
+### ***Opciones Avanzadas***
+
+**Si necesitas configurar tu proyecto para usar un framework específico de ASP.NET (como MVC, Razor Pages, etc.), puedes especificarlo al crear el proyecto:**
+
+```bash
+dotnet new webapp -n MiProyectoWeb --framework net6.0
+```
+
+- **`webapp`:** *Especifica una plantilla de aplicación web que incluye opciones adicionales.*
+- **`--framework net6.0`:** *Puedes especificar el framework específico que deseas usar. En este caso, `net6.0` es la versión actual de .NET.*
+
+### ***Notas Adicionales**
+
+- *A medida que desarrolles tu proyecto, puedes añadir más funcionalidades usando comandos como `dotnet add package` para agregar paquetes NuGet, o `dotnet build` para compilar tu proyecto.*
+- *Para más información sobre opciones y comandos disponibles, puedes consultar la documentación oficial de .NET CLI y ASP.NET.*
+
+- *Siguiendo estos pasos, estarás listo para iniciar y desarrollar tu proyecto de página web en ASP.NET usando .NET CLI desde la línea de comandos.*
+
 > [!WARNING]
 > *El error específico que mencionas, CS0453, se refiere al hecho de que estás utilizando el tipo string?, que es una anotación de referencia nula introducida en C# 8.0, pero no está soportada en compiladores más antiguos como mcs. Por lo tanto, si intentas compilar el código con mcs, obtendrás un error debido a esta característica no compatible.*
 
