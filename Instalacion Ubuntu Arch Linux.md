@@ -15,7 +15,7 @@
 3. *Instala el paquete `apt-transport-https` que permite descargar paquetes desde repositorios HTTPS:*
 
     ```bash
-    sudo apt install apt-transport-https
+    sudo apt install -y apt-transport-https
     ```
 
 4. *Importa la clave de Microsoft GPG:*
@@ -40,7 +40,7 @@ sudo apt search dotnet-sdk
 ```
 
 ```bash
-sudo apt install dotnet-sdk-8.0
+sudo apt install -y dotnet-sdk-8.0
 ```
 
 ## ***snap find dotnet-sdk***
