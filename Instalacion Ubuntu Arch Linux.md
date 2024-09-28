@@ -108,7 +108,7 @@ dotnet new web -n MiProyectoWeb
 cd MiProyectoWeb
 ```
 
-### Ejecutar el Proyecto
+### ***Ejecutar el Proyecto***
 
 **Para ejecutar tu proyecto web y verlo en tu navegador local, usa el siguiente comando:**
 
@@ -133,7 +133,7 @@ dotnet new webapp -n MiProyectoWeb --framework net6.0
 - **`webapp`:** *Especifica una plantilla de aplicación web que incluye opciones adicionales.*
 - **`--framework net6.0`:** *Puedes especificar el framework específico que deseas usar. En este caso, `net6.0` es la versión actual de .NET.*
 
-### ***Notas Adicionales**
+### ***Notas Adicionales***
 
 - *A medida que desarrolles tu proyecto, puedes añadir más funcionalidades usando comandos como `dotnet add package` para agregar paquetes NuGet, o `dotnet build` para compilar tu proyecto.*
 - *Para más información sobre opciones y comandos disponibles, puedes consultar la documentación oficial de .NET CLI y ASP.NET.*
