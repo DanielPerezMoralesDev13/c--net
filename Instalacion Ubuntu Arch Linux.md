@@ -95,8 +95,8 @@ dotnet new console -o prueba
 dotnet new web -n MiProyectoWeb
 ```
 
-- *`dotnet new web`:** *Este comando crea un nuevo proyecto web en ASP.NET.*
-- *`-n MiProyectoWeb`:** *Especifica el nombre del proyecto. Puedes cambiar `MiProyectoWeb` por el nombre que desees para tu proyecto.*
+- **`dotnet new web`:** *Este comando crea un nuevo proyecto web en ASP.NET.*
+- **`-n MiProyectoWeb`:** *Especifica el nombre del proyecto. Puedes cambiar `MiProyectoWeb` por el nombre que desees para tu proyecto.*
 
 - *Este comando creará una estructura básica para tu proyecto web en ASP.NET.*
 
